@@ -1,0 +1,20 @@
+{
+  "name": "sandbox-tailwind-cours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "postcss-cli": "^8.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "tailwindcss": "^2.1.1"
+  },
+  "scripts": {
+    "build": "postcss build input.css -o output.css",
+    "watch": "postcss build input.css -o output.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
